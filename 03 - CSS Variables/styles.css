@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-family: "helvetica neue", sans-serif;
+    font-weight: 100;
+    font-size: 3rem;
+    margin: 0 auto;
+}
+
+main {
+    padding: 0 0 4rem;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.hl {
+    color: var(--color);
+}
+
+.controls-section {
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+input {
+    width: 10rem;
+}
+
+figure {
+    margin: 0 auto;
+}
+
+img {
+    width: 60rem;
+    max-width: 90%;
+    padding: var(--spacing);
+    background: var(--color);
+    filter: blur(var(--blur));
+}
